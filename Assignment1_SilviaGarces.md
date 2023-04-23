@@ -56,13 +56,13 @@ We have analyzed all the selected variables, but most of them have still a lot o
 
 The variables related to the crime times and codes used by the police show the following histograms. They are related to the Uniform Crime Reporting program, each type of crime has an specific code and there are several other codes for their identification.
 
-![](C:\Users\silvi\Downloads\variables1.png)
+![](variables1.png)
 
 Figure 1. UCR type and UCR code
 
 For the type of crimes we can see that they are mainly burglary and robberies to businesses, but there is a high number of assaults as well.
 
-![](C:\Users\silvi\Downloads\variables2.png)
+![](variables2.png)
 
 Figure 2. Type of crime and category by NIBRS.
 
@@ -72,7 +72,7 @@ There are several variables explaining when the crimes took places, we focused m
 
 ~~
 
-![](C:\Users\silvi\Downloads\variables3.png)
+![](variables3.png)
 
 Figure 3. Year and month where the crimes took place<br>
 
@@ -82,7 +82,7 @@ The last variables we analyzed explains the sectors and district of the crimes a
 
 As we can see in the picture most of the crimes are still unsolved and they are mainly against individual citizens. Talking about the zones of the crimes they are almost evenly distributed but most of them are concentrated in districts number 2, 6 7 and 8.
 
-![](C:\Users\silvi\Downloads\variables4.png)
+![](variables4.png)
 
 Figure 4. Crime status and other variables of the crimes.
 
@@ -92,7 +92,7 @@ After analyzing the different variables separately we are going to check if ther
 
 ### 3.1 Correlation matrix
 
-![](C:\Users\silvi\Downloads\corrMatrix.png) Figure 5. Correlation matrix of all 11 variables analyzed in the univariate analysis.
+![](corrMatrix.png) Figure 5. Correlation matrix of all 11 variables analyzed in the univariate analysis.
 
 We can see that the biggest correlation appears between the year and the category of the crime stated by NIBRS, as the correlation is of 0.72 which is really close to 1. Another pattern we can find is the correlation between the ctype (crime type) and URC code given, as the value is 0.89 which is the highest among all correlations.
 
